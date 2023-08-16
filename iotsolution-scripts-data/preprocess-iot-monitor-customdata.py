@@ -183,12 +183,11 @@ datetime=datapoint.updated_at~\
 msgid=datapoint.id~\
 latlong=lat:long'     
 
-#     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
-#subtopics=entry.1.resource.type.0.coding.0.code~\
-#values=entry.1.resource.name~\
-#identifiers=entry.0.resource.id~\
-#datetime=timestamp~\
-#msgid=entry.2.resource.code.coding.0.display:entry.1.resource.name~\
+#     jsoncriteria='uid=Entity~\
+#subtopics=Organization_Type~\
+#values=Method~\
+#identifiers=Entity\
+#msgid=Records~\
 #latlong=entry.1.resource.position.latitude:entry.1.resource.position.longitude'     # use : to join multiple fields
 
 
